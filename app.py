@@ -2,11 +2,11 @@ import streamlit as st
 import requests
 import base64
 
-st.title("Text to Speech App powered by Gradio API hosted on 🤗")
+st.title("Text to Speech App powered by Gradio API")
 
 inp_text = st.text_input("Enter your text here.....")
 
-button = st.button("⚡️ Text to speech magic ⚡️")
+button = st.button("Text to speech ⚡️")
 
 if button:
 
